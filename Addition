@@ -1,10 +1,13 @@
-public class AddTwoNumbers {
-
-   public static void main(String[] args) {
-        
-      int num1 = 5, num2 = 15, sum;
-      sum = num1 + num2;
-
-      system.out.println("Sum of these numbers: "+sum);
-   }
+import java.util.Scanner;
+public class Inputfunctions {
+  public static void main(String[] args) {
+   Scanner readme = new Scanner(System.in);
+   System.out.println("Enter Two Numbers (Press Enter after each):");
+   //two variables to hold numbers
+   double n1, n2, n3;
+   n1 = readme.nextDouble();
+   n2 = readme.nextDouble();
+   n3 = n1 + n2;
+   System.out.println("Total = " + n3);
+  }
 }
